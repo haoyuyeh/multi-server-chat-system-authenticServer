@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="CmdLineArgs" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/CmdLineArgs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="139" width="165" x="102" y="60"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="User" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="139" width="130" x="222" y="311"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="AuthenticServerState" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/AuthenticServerState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="193" width="214" x="307" y="60"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="AuthenticServerConnection" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/AuthenticServerConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="211" width="234" x="571" y="60"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="CheckChatServerCondition" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/CheckChatServerCondition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="175" width="206" x="845" y="60"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ChatServer" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/ChatServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="229" width="176" x="392" y="311"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="RunAuthenticServer" project="Assignment2_SSLAuthenticServer" 
+    file="/Assignment2_SSLAuthenticServer/src/RunAuthenticServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="85" width="138" x="1091" y="60"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="serverList"/>      
+      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="instance"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="15" name="userList"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="false" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
